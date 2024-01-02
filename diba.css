@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#helo{
+    width: 35%;
+    height: 600px;
+    background-color:#3B459A;
+    margin: 100px auto;
+    position:relative;
+    border: 5px solid #139BDA;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: bold;
+ padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.lore{
+width: 450px;
+margin-left: 130px;
+line-height: 20px;
+color: white;
+padding: 22px;
+font-family: arial;
+font-size: 12px;
+}
+.myname{
+    font-family: arial;
+    color:#1E7EC3;
+    padding: 20px;
+    margin-left: 130px;
+    padding: 20px;
+    font-size: 12px;
+}
+hr{
+    color: #1E7EC3;
+    margin-top: -10px;
+    width: 60%;
+   
+}
+button{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    padding-top:8px ;
+    background-color: #3B459A;
+    border: 1px solid white ;
+    margin-left: 260px;
+    color: white;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font End</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style type="text/css">
+      *{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: radial-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), 
+    url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+      
+
+}
+header{
+    width: 85%;
+    margin: auto;
+    padding: 40px ;
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: space-between;
+}
+header ul li {
+    display: inline-block;
+    /*list-style: none; */
+    /* border: 2px solid red ; */
+    /* background-color: aliceblue; */
+    /* color: white; */
+    /* margin: 10px ; */
+    padding: 10px ;
+}
+header ul li a {
+    color: white;
+    text-decoration: none ;
+}
+main{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
+}
+.logo span{
+    color: gold;
+}
+.logo{
+    cursor: pointer;
+    color: white;
+    /* text-decoration: dotted red ; */
+}
+main h1{
+    /* position: relative; */
+    text-align: center;
+    color: #eee  ;
+    /* border: 2px solid greenyellow; */
+    border-radius: 50px;
+    
+    margin: auto;
+    text-transform: uppercase;
+    padding: 10px;
+}
+main p{
+    box-shadow: 0 -25px 20px -20px rgba(0, 0, 0, 0.811);
+    color: black ;
+    margin: auto ;
+    padding: 25px ;
+    border-radius: 60px 15px;
+    background-color: #eeeeeec4;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: arial;
+}
+    </style>
+
+</head>
+<body>
+    <div class="banner">
+        <header>
+             <!--<img src="images/logo.png" class="logo"  alt="logo">-->
+            <h1 class="logo ">PHJ<span>S&#38;C</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Apply</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Welcome</h1>
+            <p>Hi, This is Palashbari Hazi Joynuddin High School Thanks For Visiting Our Website. <br>You can educate your child in this school for higher education.</p>
+        </main>
+    </div>
+</body>
+</html>
